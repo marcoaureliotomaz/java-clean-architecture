@@ -1,5 +1,4 @@
 INDEX VERSION 1.131+C:\Users\MarcoAurélio\Documents\Alura\java-clean-architecture\.metadata\.plugins\org.eclipse.jdt.core
-112720350.index
 2164118698.index
 1607856791.index
 837272094.index
