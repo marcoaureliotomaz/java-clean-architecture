@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="EmailTest" project="escola" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="escola.EmailTest" time="0.086" displayname="EmailTest" uniqueid="[engine:junit-jupiter]/[class:escola.EmailTest]">
-    <testcase name="naoDeveriaCriarEmailsComEnderecosInvalidos" classname="escola.EmailTest" time="0.086" displayname="naoDeveriaCriarEmailsComEnderecosInvalidos()" uniqueid="[engine:junit-jupiter]/[class:escola.EmailTest]/[method:naoDeveriaCriarEmailsComEnderecosInvalidos()]"/>
-  </testsuite>
-</testrun>
