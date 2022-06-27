@@ -1,14 +1,24 @@
 package escola;
 
 public class Email {
-
-	private String email;
-
-	public String getEmail() {
-		return email;
+	
+	public Email(String endereco) {
+		if (endereco == null || !endereco.matches("^([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})$")) {
+			throw new IllegalArgumentException("Email inválido!");
+		}
+		
+		this.endereco = endereco;
 	}
 
-	public void setEmail(String email) {
-		this.email = email;
+	private String endereco;
+
+	public String getendereco() {
+		return endereco;
 	}
+
+	public void setendereco(String endereco) {
+		this.endereco = endereco;
+	}
+	
+
 }

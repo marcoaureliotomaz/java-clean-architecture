@@ -1,0 +1,19 @@
+package escola;
+
+public class Telefone {
+	private String ddd;
+	private String numero;
+	
+	public Telefone(String ddd, String numero) {
+		if (ddd.length() >2 || ddd.length() < 2) {
+			throw new IllegalArgumentException("DDD deve conter 2 números");
+		}
+		else if (numero.length() > 9 || numero.length() < 9) {
+			throw new IllegalArgumentException("Número deve conter 9 dígitos");
+		}
+				
+		this.ddd = ddd;
+		this.numero = numero;
+	}
+
+}

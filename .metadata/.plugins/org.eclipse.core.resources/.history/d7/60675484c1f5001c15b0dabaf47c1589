@@ -1,0 +1,14 @@
+package escola;
+
+public class Inidicacao {
+	
+	private Aluno indicado;
+	private Aluno indicante;
+	
+	public Inidicacao (Aluno indicado, Aluno indicante) {
+		this.indicado = indicado;
+		this.indicante = indicante;
+	}
+	
+
+}

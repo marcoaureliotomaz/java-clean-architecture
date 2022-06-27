@@ -1,0 +1,11 @@
+package escola;
+
+public class FabricaDeAluno {
+	private Aluno aluno;
+	
+	public void comnNomeCPFEmail(String nome, String cpf, String email) {
+		this.aluno = new Aluno(new Cpf(cpf), nome, new Email(email));
+		
+	}
+
+}
